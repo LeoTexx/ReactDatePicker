@@ -1,0 +1,23 @@
+.CalendarDay__selected {
+  background: var(--pink);
+  color: white;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.CalendarDay__selected:hover {
+  background: #222;
+  color: var(--pink);
+  transition: 0.2s;
+  cursor: pointer;
+}
+.CalendarDay__selected_span,
+.CalendarDay__hovered_span:hover,
+.CalendarDay__hovered_span {
+  background: var(--pink);
+  opacity: 0.7;
+  color: white;
+  border: 1px solid #222;
+  transition: 0.2s;
+  cursor: pointer;
+}
